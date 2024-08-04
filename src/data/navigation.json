@@ -1,0 +1,22 @@
+[
+  {
+    "item": "About",
+    "href": "/about"
+  },
+  {
+    "item": "Blog",
+    "href": "/articles"
+  },
+  {
+    "item": "GitHub",
+    "href": "/projects"
+  },
+  {
+    "item": "Problem Solving",
+    "href": "/problem-solving"
+  },
+  {
+    "item": "Tech Stack",
+    "href": "/tech-stack"
+  }
+]
