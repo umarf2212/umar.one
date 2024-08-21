@@ -1,33 +1,19 @@
 [
   {
-    "company": "Planetaria",
-    "title": "CEO",
+    "company": "BT Group",
+    "title": "Frontend Engineer",
     "logo": "logoPlanetaria",
-    "start": "2019",
+    "start": "2022",
     "end": {
       "label": "Present",
       "dateTime": "present"
     }
   },
   {
-    "company": "Airbnb",
-    "title": "Product Designer",
+    "company": "Wipro Limited",
+    "title": "Project Engineer - React",
     "logo": "logoAirbnb",
-    "start": "2014",
-    "end": "2019"
-  },
-  {
-    "company": "Facebook",
-    "title": "iOS Software Engineer",
-    "logo": "logoFacebook",
-    "start": "2011",
-    "end": "2014"
-  },
-  {
-    "company": "Starbucks",
-    "title": "Shift Supervisor",
-    "logo": "logoStarbucks",
-    "start": "2008",
-    "end": "2011"
+    "start": "2019",
+    "end": "2021"
   }
 ]

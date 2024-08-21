@@ -10,40 +10,33 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Django Forumz',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'Django based discussion forum that allows users to create, edit, and delete posts.',
+    link: { href: 'https://github.com/umarf2212/django-forumz', label: 'Django Forumz' },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
+    name: 'Envato Tracker',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'Django based web scraper that allows users to track the sales performance of Envato Maketplace producst.',
+    link: { href: 'https://github.com/umarf2212/envato-tracker', label: 'Envato Tracker' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'Musk Coming Soon HTML Template',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+      'While this did not end up on ThemeForest as a template, this is my most passionate project that I am proud of.',
+    link: { href: 'https://github.com/umarf2212/musk-coming-soon', label: 'Musk Coming Soon' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: 'Angluar Recipe Book',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'I took up a course on Udemy to learn Angular, and created this using Angular, and Firebase for backend data storage.',
+    link: { href: 'https://github.com/umarf2212/ng-recipe-book', label: 'Angular Recipe Book' },
     logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  }
 ]
 
 function LinkIcon(props) {
@@ -59,13 +52,13 @@ function LinkIcon(props) {
 
 export const metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: 'Things I’ve made',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
+      title="Things I’ve made"
       intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
     >
       <ul

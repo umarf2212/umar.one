@@ -3,42 +3,26 @@ import Role from '@/components/homepage/Role'
 import BriefcaseIcon from '@/components/homepage/BriefcaseIcon'
 import ArrowDownIcon from '@/components/homepage/ArrowDownIcon'
 import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 // import resumeData from '@/data/resume.json'
 export default function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'BT Group',
+      title: 'Frontend Engineer',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2022',
       end: {
         label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
+        dateTime: 'present',
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Wipro Limited',
+      title: 'Project Engineer - React',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2019',
+      end: '2021',
     },
   ]
 

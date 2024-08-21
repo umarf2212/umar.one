@@ -1,9 +1,5 @@
 [
   {
-    "item": "About",
-    "href": "/about"
-  },
-  {
     "item": "Blog",
     "href": "/articles"
   },
